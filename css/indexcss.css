@@ -3,3 +3,11 @@ body {
     color: black;
     cursor: url("fork.cur"), grab;
 }
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+    
+}
