@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-image: linear-gradient(to right, #deefb7, #32533d);
-    cursor: url('fork.cur'), grab;
+    cursor: url('fork.cur');
 }
 
 nav {
