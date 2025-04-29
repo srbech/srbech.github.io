@@ -1,13 +1,20 @@
 body {
-    background-color: darkgrey;
-    color: black;
-    cursor: url("fork.cur"), grab;
+    margin: 0;
+    background-image: linear-gradient(to right, #deefb7, #32533d);
+    cursor: url('fork.cur'), grab;
 }
 
 nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: aqua;
-    
+    background-color: #414288;
+    justify-content: space-evenly;
+    display:flex;
+}
+
+nav a {
+    color: white;
+    padding: 12px 12px; 
+    text-decoration: none;
 }
