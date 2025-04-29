@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-image: linear-gradient(to right, #deefb7, #32533d);
-    cursor: url('fork.cur');
 }
 
 nav {
@@ -17,4 +16,12 @@ nav a {
     color: white;
     padding: 12px 12px; 
     text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #414288;
+}
+
+.active {
+    background-color: #8d99ae;
 }
