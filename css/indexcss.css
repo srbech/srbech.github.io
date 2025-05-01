@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-image: linear-gradient(to right, #deefb7, #32533d);
+    text-align: center;
 }
 
 nav {
@@ -24,5 +25,12 @@ nav a {
     background-color: #8d99ae;
     height: 100%;
     height: 100vh;
+    text-align: left;
+}
+
+img {
+    width: 150%;
+    height: 150%;
+    align-items: center;
 }
 
