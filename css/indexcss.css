@@ -19,6 +19,26 @@ nav a {
     text-decoration: none;
 }
 
+.nav-links a.active {
+    color: white;
+    background-color: #8d99ae;
+}
+
+.nav-links a:hover:not(.active) {
+    background-color: #414288; 
+    color: white;
+}
+
+
+footer {
+    margin: 0;
+    background-color:#414288;
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #leftsidebar {
     width: 200px;
     float: left;
