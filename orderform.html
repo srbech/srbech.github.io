@@ -18,7 +18,53 @@
 
     <h1>Order Form</h1>
     <br/>
+    <form>
+        <h2>Information</h2>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="text" name="phone_number"></td>
+            </tr>
+            <tr>
+                <td>Event Date:</td>
+                <td><input type="text" name="event_date"></td>
+            </tr>
+            <tr>
+                <td>Approximate Headcount:</td>
+                <td><input type="text" name="headcount"></td>
+            </tr>
+        </table>
 
+        <h2>Event Duration</h2>
+        <input type="radio" name="short" value="short"><label for="short">Less than 4 hours</label>
+        <input type="radio" name="medium" value="medium"><label for="medium">4-7 hours</label>
+        <input type="radio" name="long" value="long"><label for="long">8+ hours</label>
+        
+        <h2>Potential Allergens:</h2>
+        <input type="checkbox" value="cheese"><label>Cheese</label>
+        <input type="checkbox" value="pepperoni"><label>Pepperoni</label>
+        <input type="checkbox" value="sausage"><label>Sausage</label>
+        <input type="checkbox" value="ham"><label>Ham</label>
+        <input type="checkbox" value="pineapple"><label>Pineapple</label>
+        <input type="checkbox" value="mushroom"><label>Mushroom</label>
+        <input type="checkbox" value="green_peppers"><label>Green Peppers</label>
+        <input type="text" value="other"><label>Other:</label>
+
+        <h2>Comments</h2>
+        <textarea rows="4" cols="40">Enter a comment</textarea>
+        <br/>
+
+        <button type="submit">Submit Order</button>
+        <button type="reset">Reset Order</button>
+    </form>
     <footer> 
         <h2>Sterling's Food Truck</h2>
     </footer>
