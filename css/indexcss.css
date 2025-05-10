@@ -5,6 +5,7 @@ header {
     background-color: #414288;
     justify-content: space-evenly;
     display:flex;
+    height: 50px;
 }
 
 nav a {
