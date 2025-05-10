@@ -3,6 +3,7 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: #414288;
+    color: white;
     justify-content: space-evenly;
     display:flex;
     height: 50px;
@@ -12,6 +13,9 @@ header {
     color: white;
     padding: 12px 12px; 
     text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .nav-links a.active {
@@ -20,8 +24,13 @@ header {
 }
 
 .nav-links a:hover:not(.active) {
-    background-color: #414288; 
+    background-color: #8d99ae; 
     color: white;
+}
+
+nav a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 body {
