@@ -4,28 +4,31 @@ header {
     overflow: hidden;
     background-color: #414288;
     color: white;
-    justify-content: space-evenly;
-    display:flex;
+    display: flex;
+    align-items: center;
     height: 50px;
 }
 
 .nav-links {
-    color: white;
-    padding: 12px 12px; 
-    text-decoration: none;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
 }
 
-.nav-links a.active {
+.nav-links a {
+    flex: 1;
+    text-align: center;
+    padding: 12px;
     color: white;
+    text-decoration: none;
+}
+
+.nav-links a.active {
     background-color: #8d99ae;
 }
 
 .nav-links a:hover:not(.active) {
-    background-color: #8d99ae; 
-    color: white;
+    background-color: #8d99ae;
 }
 
 nav a:visited {
