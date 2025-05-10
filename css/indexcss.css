@@ -1,10 +1,4 @@
-body {
-    margin: 0;
-    background-image: linear-gradient(to right, #deefb7, #32533d);
-    text-align: center;
-}
-
-nav {
+header {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -29,14 +23,10 @@ nav a {
     color: white;
 }
 
-
-footer {
+body {
     margin: 0;
-    background-color:#414288;
-    width: 100%;
-    padding: 0%;
-    display: flex;
-    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #deefb7, #32533d);
+    text-align: center;
 }
 
 #leftsidebar {
@@ -52,5 +42,14 @@ img {
     width: 250px;
     height: 250px;
     align-items: center;
+}
+
+footer {
+    margin: 0;
+    background-color:#414288;
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
