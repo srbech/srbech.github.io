@@ -4,7 +4,11 @@ const clear = document.querySelector("#clear");
 const heading = document.querySelector("#form_heading");
 
 first_name.oninput = function () {
-    heading.innerHTML = first_name.value + "'s Order Form";
+    if (first_name.value === "") {
+        heading.innerHTML = "Order Form";
+    } else {
+        heading.innerHTML = first_name.value + "'s Order Form";
+    }   
 }
 
 submit.onclick = function (event) {
@@ -16,4 +20,5 @@ clear.onclick = function (event) {
     event.preventDefault();
     alert("All inputs have been cleared.");
     document.querySelector("form").reset();
+    heading.innerHTML = "Order Form";
 }
