@@ -1,4 +1,4 @@
-const first_name = document.querySelector("#first-name");
+const first_name = document.querySelector("#first_name");
 const submit = document.querySelector("#submit");
 const clear = document.querySelector("#clear");
 const heading = document.querySelector("#form_heading");
