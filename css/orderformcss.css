@@ -43,6 +43,10 @@ body {
     text-align: center;
 }
 
+table {
+    text-align: center;
+}
+
 footer {
     margin: 0;
     background-color:#414288;
