@@ -5,18 +5,18 @@ const fav_side = document.querySelector("#fav_side");
 const fav_desert = document.querySelector("#fav_desert");
 
 fav_entree.onclick = function () {
-    alert("Oh no, fun fact 2 was clicked!");
+    alert("Burgers!");
     funfact_oneClicked = true;
 }
 
 fav_side.onclick = function () {
-    alert("I almost went with an ice cream truck instead.");
+    alert("French Fries!");
 }
 
 fav_desert.onclick = function () {
     if (fav_entreeClicked = true) {
-        alert("Oops! Fun fact 1 was clicked first!");
+        alert("I personally like a good cookie with my burger and fries, but people prefer ice cream.");
     } else {
-        alert("I think food trucks are great.");
+        alert("Ice Cream!");
     }
 }
